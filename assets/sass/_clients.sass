@@ -1,0 +1,48 @@
+.clients
+  padding-top: 100px
+  padding-bottom: 98px
+  flex-wrap: wrap
+  &__background
+    background-color: $secondary-background
+  &__content
+    margin-bottom: 39px
+  &__arrow
+    background-color: #fff
+    &-border
+      border: 5px solid #292929
+    &-content
+      position: relative
+      padding: 39px 85px 43px 74px
+      &-first
+        margin-left: 48px
+        &:before
+          content: ""
+          display: block
+          position: absolute
+          bottom: 45%
+          right: 100%
+          border-top: 12px solid transparent
+          border-right: 24px solid #fff
+          border-bottom: 12px solid transparent
+      &-second
+        margin-right: 48px
+        &:after
+          content: ""
+          display: block
+          position: absolute
+          bottom: 45%
+          left: 100%
+          border-top: 12px solid transparent
+          border-left: 24px solid #fff
+          border-bottom: 12px solid transparent
+    &-title
+      justify-content: center
+      color: #777777
+      font-size: $l-font-size
+      letter-spacing: -0.65px
+      line-height: 28px
+    &-text
+      margin-top: 13px
+      color: #7690c5
+      font-size: $s-font-size
+      letter-spacing: -0.45px

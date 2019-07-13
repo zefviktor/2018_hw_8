@@ -1,0 +1,341 @@
+@font-face {
+  font-family: "Brandon Grotesque Bold";
+  src: url("../fonts/BrandonGrotesque-Bold.woff2") format("woff2");
+  src: url("../fonts/BrandonGrotesque-Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Brandon Grotesque Light";
+  src: url("../fonts/BrandonGrotesque-Light.woff2") format("woff2");
+  src: url("../fonts/BrandonGrotesque-Light.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Brandon Grotesque Regular";
+  src: url("../fonts/BrandonGrotesque-Regular.woff2") format("woff2");
+  src: url("../fonts/BrandonGrotesque-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
+  box-sizing: border-box; }
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px; } }
+  @media (min-width: 1024px) {
+    .container {
+      max-width: 970px; } }
+
+.content-center {
+  display: flex;
+  justify-content: center; }
+
+.d-flex {
+  display: flex; }
+
+.d-block {
+  display: block; }
+
+.flex-wrap {
+  flex-wrap: wrap; }
+
+.flex-column {
+  flex-direction: column; }
+
+.justify-content-start {
+  justify-content: flex-start; }
+
+.justify-content-end {
+  justify-content: flex-end; }
+
+.justify-content-center {
+  justify-content: center; }
+
+.justify-content-between {
+  justify-content: space-between; }
+
+.justify-content-around {
+  justify-content: space-around; }
+
+.align-text-center {
+  text-align: center; }
+
+.align-text-left {
+  text-align: left; }
+
+.align-text-right {
+  text-align: right; }
+
+.align-text-justify {
+  text-align: justify; }
+
+.align-items-start {
+  align-items: flex-start; }
+
+.align-items-end {
+  align-items: flex-end; }
+
+.align-items-center {
+  align-items: center; }
+
+.align-items-stretch {
+  align-items: stretch; }
+
+.align-items-baseline {
+  align-items: baseline; }
+
+.flex-grow-1 {
+  flex-grow: 1; }
+
+.flex-grow-2 {
+  flex-grow: 2; }
+
+.flex-grow-4 {
+  flex-grow: 4; }
+
+body {
+  font-family: "Brandon Grotesque", sans-serif;
+  font-weight: 400; }
+
+a {
+  text-decoration: none; }
+
+button {
+  cursor: pointer; }
+
+.strong {
+  font-weight: 700; }
+
+.section__title {
+  color: #222222;
+  font-size: 60px;
+  font-weight: 300;
+  letter-spacing: -1.5px; }
+
+.section__text {
+  margin-top: 18px;
+  margin-bottom: 46px;
+  color: #777777;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: -0.45px; }
+
+.disk__big {
+  width: 221px;
+  height: 221px;
+  border-radius: 50%;
+  background-color: #000;
+  border: 7px solid #fff; }
+
+.top {
+  padding-top: 66px;
+  padding-bottom: 125px;
+  height: auto; }
+  .top__background {
+    background: url("../img/top__bg.png") center/cover no-repeat; }
+    .top__background-opacity {
+      background-color: rgba(0, 0, 0, 0.35); }
+  .top__logo-img {
+    color: #fff;
+    font-size: 32px; }
+  .top__logo-title {
+    margin-left: 15px;
+    color: #fff;
+    font-family: "Brandon Grotesque Bold", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.5px; }
+  .top__nav-title {
+    margin-left: 30px;
+    color: #fff;
+    font-family: "Brandon Grotesque Bold", sans-serif;
+    font-size: 18px;
+    font-weight: 500; }
+  .top__face-text {
+    margin-top: 160px;
+    margin-bottom: 41px;
+    color: #fff;
+    font-family: "Brandon Grotesque", sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: -0.8px; }
+  .top__face-title {
+    color: #fff;
+    font-family: "Brandon Grotesque", sans-serif;
+    font-size: 66px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -1.65px; }
+  .top__face-button {
+    margin-top: 68px;
+    padding: 23px 68px;
+    border: 2px solid #fff;
+    background: none; }
+    .top__face-button-text {
+      color: #fff;
+      font-family: "Brandon Grotesque", sans-serif;
+      font-size: 22px;
+      font-weight: 700; }
+
+.services {
+  padding-top: 100px;
+  padding-bottom: 96px;
+  height: auto;
+  flex-wrap: wrap; }
+  .services__background-development-img {
+    background: url("../img/Flow_Tree-Icon.png") no-repeat;
+    width: 221px;
+    height: 222px; }
+  .services__background-branding {
+    background-color: #fafafa; }
+    .services__background-branding-img {
+      background: url("../img/Users-Icon.png") no-repeat;
+      width: 272px;
+      height: 197px; }
+  .services__text {
+    margin-top: 35px; }
+
+.type-services {
+  padding-top: 100px;
+  padding-bottom: 96px;
+  height: auto;
+  flex-wrap: wrap; }
+  .type-services__img-branding {
+    background: url("../img/type-service-icon-1.png") no-repeat;
+    width: 172px;
+    height: 71px; }
+  .type-services__img-web {
+    background: url("../img/type-service-icon-2.png") no-repeat;
+    width: 172px;
+    height: 71px; }
+  .type-services__img-mobile {
+    background: url("../img/type-service-icon-3.png") no-repeat;
+    width: 172px;
+    height: 71px; }
+  .type-services__img-animations {
+    background: url("../img/type-service-icon-4.png") no-repeat;
+    width: 172px;
+    height: 71px; }
+  .type-services__img-ui-ux {
+    background: url("../img/type-service-icon-5.png") no-repeat;
+    width: 172px;
+    height: 71px; }
+  .type-services__img-photography {
+    background: url("../img/type-service-icon-6.png") no-repeat;
+    width: 172px;
+    height: 71px; }
+  .type-services__content {
+    max-width: 40%; }
+  .type-services__title {
+    color: #222222;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: -1.5px; }
+  .type-services__text {
+    margin-top: 35px;
+    color: #777777;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: -0.45px; }
+
+.clients {
+  padding-top: 100px;
+  padding-bottom: 98px;
+  flex-wrap: wrap; }
+  .clients__background {
+    background-color: #fafafa; }
+  .clients__content {
+    margin-bottom: 39px; }
+  .clients__arrow {
+    background-color: #fff; }
+    .clients__arrow-border {
+      border: 5px solid #292929; }
+    .clients__arrow-content {
+      position: relative;
+      padding: 39px 85px 43px 74px; }
+      .clients__arrow-content-first {
+        margin-left: 48px; }
+        .clients__arrow-content-first:before {
+          content: "";
+          display: block;
+          position: absolute;
+          bottom: 45%;
+          right: 100%;
+          border-top: 12px solid transparent;
+          border-right: 24px solid #fff;
+          border-bottom: 12px solid transparent; }
+      .clients__arrow-content-second {
+        margin-right: 48px; }
+        .clients__arrow-content-second:after {
+          content: "";
+          display: block;
+          position: absolute;
+          bottom: 45%;
+          left: 100%;
+          border-top: 12px solid transparent;
+          border-left: 24px solid #fff;
+          border-bottom: 12px solid transparent; }
+    .clients__arrow-title {
+      justify-content: center;
+      color: #777777;
+      font-size: 26px;
+      letter-spacing: -0.65px;
+      line-height: 28px; }
+    .clients__arrow-text {
+      margin-top: 13px;
+      color: #7690c5;
+      font-size: 20px;
+      letter-spacing: -0.45px; }
+
+.cms {
+  padding-top: 60px;
+  padding-bottom: 61px;
+  height: auto;
+  flex-wrap: wrap; }
+  .cms__content-envato {
+    background: url("../img/Envato.png") no-repeat;
+    width: 161px;
+    height: 30px; }
+  .cms__content-wordpress {
+    background: url("../img/WordPress.png") no-repeat;
+    width: 186px;
+    height: 42px; }
+  .cms__content-tuts {
+    background: url("../img/Tuts.png") no-repeat;
+    width: 131px;
+    height: 41px; }
+  .cms__content-microlancer {
+    background: url("../img/Microlancer.png") no-repeat;
+    width: 167px;
+    height: 42px; }
+
+.team {
+  padding-top: 100px;
+  padding-bottom: 98px;
+  flex-wrap: wrap; }
+  .team__background {
+    background-color: #000; }
+  .team__face {
+    margin-bottom: 39px; }
+    .team__face-name {
+      justify-content: center;
+      color: #777777;
+      font-size: 26px;
+      letter-spacing: -0.65px;
+      line-height: 28px; }
+    .team__face-profession {
+      margin-top: 13px;
+      color: #7690c5;
+      font-size: 20px;
+      letter-spacing: -0.45px; }
+
+.footer {
+  padding-top: 79px;
+  padding-bottom: 100px; }
